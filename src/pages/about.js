@@ -5,8 +5,9 @@ import cv from "../db/cv.pdf"
 const About = () => {
 
     return (
-        <div className='flex flex-col items-center pt-4' id="about">
+        <div className='flex flex-col items-center pt-4 mt-[70px] max-lg:pt-[50px]' id="about">
             <h1 className='bg-black px-20 text-3xl uppercase font-bold mb-8'>About<span className='text-[#FFB400]'> me </span></h1>
+            <h1 className='text-2xl font-bold uppercase  flex justify-center mb-6 md:mb-12 '>Personal infos</h1>
 
             <div className=' w-[230px] h-[230px] object-cover mt-2
                             rounded-full overflow-hidden border-4 border-[#252525] 
@@ -15,7 +16,6 @@ const About = () => {
             </div>
             <div className='lg:flex lg:gap-16 lg:text-xl px-2'>
                 <div className='flex flex-col md:items-center'>
-                    <h1 className='text-2xl font-bold uppercase  flex justify-center mb-6 md:mb-12 '>Personal infos</h1>
                     <div className='flex gap-5  '>
                         <div className='flex flex-col gap-3 lg:gap-10 md:text-xl'>
                             <p><span className='text-gray-300 max-lg:block'>First Name:</span> Kassahun</p>
